@@ -1,0 +1,23 @@
+
+Call:
+lm(formula = samenanzahl ~ besuche + temperatur + hoehenlage + 
+    sonnenstunden, data = daten)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-50.08  -9.19   0.13  10.91  42.24 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   78.605393  15.279964   5.144  5.5e-07 ***
+besuche        4.363140   0.392476  11.117  < 2e-16 ***
+temperatur     1.571656   0.634882   2.476  0.01398 *  
+hoehenlage    -0.001602   0.004168  -0.384  0.70108    
+sonnenstunden  1.664694   0.544653   3.056  0.00249 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 15.03 on 245 degrees of freedom
+Multiple R-squared:  0.3936,	Adjusted R-squared:  0.3837 
+F-statistic: 39.75 on 4 and 245 DF,  p-value: < 2.2e-16
+
