@@ -70,6 +70,7 @@ Die Residuen zeigen keine auffälligen systematischen Muster und sind annähernd
 - [R-Skript](EcoBee_Simulation.R)
 - [Simulierter Datensatz](ergebnisse/ecobee_daten.csv)
 - [Regressionsausgabe](ergebnisse/regression_ergebnisse.txt)
+- [Projektbeschreibung – Aufgabe 4](projektbeschreibung.md)
 
 ## 4. Feedback und Zusammenarbeit
 
@@ -77,17 +78,29 @@ Die Residuen zeigen keine auffälligen systematischen Muster und sind annähernd
 1. Wie könnten wir einen sinnvollen Schwellenwert für eine zu geringe Samenproduktion festlegen?
 2. Wie können wir beurteilen, ob unsere selbst gewählten Simulationsparameter realistisch genug sind, um daraus später ein brauchbares Modell zu entwickeln?
 
-**Herausforderung:** Die Auswahl realistischer Simulationsparameter ohne vollständige Messdaten. Unser Modell berücksichtigt ausserdem nicht alle biologischen Einflussfaktoren.
+**Herausforderung:**
+Die Auswahl realistischer Simulationsparameter ohne vollständige Messdaten. Unser Modell berücksichtigt ausserdem nicht alle biologischen Einflussfaktoren.
 
 **Aufgabenverteilung:**
-- Zeno: [Beiträge ergänzen]
-- Djordje: [Beiträge ergänzen]
+- Zeno:
+  - Einrichtung und Gestaltung der GitHub-Seite
+  - Aufbereitung und Veröffentlichung der Ergebnisse
+- Djordje:
+  - Umsetzung und Anpassung der Datensimulation in RStudio
+  - Durchführung der Regression und Erstellung der Diagramme
+- Gemeinsame Arbeiten:
+  - Entwicklung und Auswahl der EcoBee-Idee
+  - Festlegung der Variablen und des Regressionsmodells
+  - Besprechung und Überarbeitung der Projektinhalte
 
 **Verfügbarkeiten für ein Online-Gespräch:**
-- [Zeitfenster ergänzen]
+- Montag 09.11.2026 08:00 - 18:00
+- Dienstag 10.11.2026 08:00 - 18:00
+- Mittwoch 11.11.2026 08:00 - 12:00
 
 ## 5. Einsatz von KI
 
-Wir haben ChatGPT zur sprachlichen Überarbeitung unserer Idee, zur Unterstützung bei der Auswahl und Erklärung der Simulationsparameter, bei der Erstellung des R-Codes sowie bei der Interpretation der Ergebnisse verwendet. Auch die Strukturierung der GitHub-Seite erfolgte mit KI-Unterstützung.
+Wir haben ChatGPT zur sprachlichen Überarbeitung unserer Projektbeschreibung, zur Unterstützung bei der Auswahl und Erklärung der Simulationsparameter, bei der Erstellung des R-Codes sowie bei der Interpretation der Ergebnisse verwendet.
+Die Grobfassung der index Datei erfolgte auch durch ChatGPT.
 
-Die Projektidee und die untersuchten Variablen stammen von uns. Die Simulation und Regression haben wir in RStudio selbst ausgeführt und überprüft.
+Die Projektidee, Rohfassung der Projektbeschreibung und die untersuchten Variablen stammen von uns. Die Simulation und Regression haben wir in RStudio selbst ausgeführt und überprüft.
